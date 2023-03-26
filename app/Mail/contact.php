@@ -1,0 +1,67 @@
+<?php
+
+namespace App\Mail;
+
+use Illuminate\Bus\Queueable;
+use Illuminate\Contracts\Queue\ShouldQueue;
+use Illuminate\Mail\Mailable;
+use Illuminate\Mail\Mailables\Content;
+use Illuminate\Mail\Mailables\Envelope;
+use Illuminate\Queue\SerializesModels;
+
+class contact extends Mailable
+{
+    use Queueable, SerializesModels;
+    public $email;
+    public $name;
+    public $message;
+    public function __construct($email,$messagem,$name)
+    {
+        $this->name=$name;
+        $this->message=$messagem;
+        $this->email=$email;
+
+    }
+
+    /**
+     * Get the message envelope.
+     *
+     * @return \Illuminate\Mail\Mailables\Envelope
+     */
+    public function envelope()
+    {
+        return new Envelope(
+            
+        );
+    }
+
+    /**
+     * Get the message content definition.
+     *
+     * @return \Illuminate\Mail\Mailables\Content
+     */
+    public function content()
+    {
+        return new Content(
+
+            view: 'name',
+            with: [
+                'orderName' => $this->name,
+                'ordermessage' => $this->message,
+                'o' => $this->email,
+            ],
+
+
+        );
+    }
+
+    /**
+     * Get the attachments for the message.
+     *
+     * @return array
+     */
+    public function attachments()
+    {
+        return [];
+    }
+}

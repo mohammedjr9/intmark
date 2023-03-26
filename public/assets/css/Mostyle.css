@@ -1,0 +1,1117 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Amiri&family=Changa:wght@200&family=Chivo&family=El+Messiri:wght@500&family=Jost:wght@300;700;900&family=Noto+Kufi+Arabic:wght@100;200;300;400;600;800;900&family=Roboto:wght@300&family=Rubik+Distressed&family=Tajawal:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Amiri&family=Changa:wght@200&family=Chivo&family=El+Messiri:wght@500&family=Jost:wght@300;700;900&family=Noto+Kufi+Arabic:wght@100;200;300;400;600;800;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,100&family=Roboto:wght@300&family=Rubik+Distressed&family=Tajawal:wght@200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Noto Kufi Arabic';
+    font-style: normal;
+}
+
+a:hover {
+    text-decoration: none !important;
+
+}
+
+
+/*---------------------------------------------------------------
+-------- -----------------section marketing ----------
+--------------------------- ------------------------------------*/
+.marketing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    margin-top: 100px !important;
+}
+
+#continer-text {
+    text-align: right;
+    margin-right: 7rem;
+    margin-left: 0rem;
+}
+
+#continer-text h3 {
+    Font-size: 20px;
+    color: #34ACE0;
+    font-family: 'Noto Kufi Arabic';
+}
+
+#continer-text h1 {
+    font-size: 40px;
+    Line-height: 100%;
+    Vertical-align: Top;
+    Fill: Solid;
+    color: #4B4B4B;
+    margin: 25px 0px;
+    font-family: 'Noto Kufi Arabic';
+}
+
+#continer-text p {
+    font-family: 'Noto Kufi Arabic';
+    font-size: 20px;
+    Line-height: 34px;
+    Line-height: 169%;
+    text-align: justify !important;
+    color: #4B4B4B;
+    direction: rtl;
+}
+
+.vector-img{
+    height: 382.8616310910667px;
+    width: 417.99999758748174px;
+    position: absolute;
+    right: 406px;
+    top: 220px;
+}
+
+.gif-img{
+    position: relative;
+    height: 513px;
+    width: 555px;
+}
+/*---------------------------------------------------------------
+-------- -----------------section success ----------
+--------------------------- ------------------------------------*/
+.success {
+    display: block;
+    margin: 1rem 107px;
+    position: relative;
+    margin: 100px;
+}
+
+.success .text {
+    box-sizing: border-box;
+    width: 381px;
+    height: 50px;
+    border: 1px solid #34ACE0;
+    border-radius: 8px 0;
+    margin: -55px auto;
+    position: relative;
+    bottom: 17px;
+}
+
+.success .text img {
+    position: absolute;
+    width: 214px;
+    height: 85px;
+    margin: -36px auto;
+    right: 80px;
+    top: 19px;
+}
+
+.success .text h2 {
+    text-align: center;
+    color: #34ACE0;
+    margin-top: -20px;
+    width: 68px;
+    right: 182px;
+    position: absolute;
+    font-size: 31px;
+    top: -3px;
+}
+
+.text h2 #number {
+    position: absolute;
+    width: 102px;
+    left: 27px;
+    padding-left: 45px;
+    font-weight: 600;
+    top: 0px;
+
+}
+.success{
+margin: 0;
+margin-top: 11vw;
+}
+.success .text h3 {
+    text-align: center;
+    color: #4B4B4B;
+    right: 100px;
+    position: absolute;
+    top: 19px;
+    font-size: 26px;
+    font-weight: 300;
+    font-family: Noto Kufi Arabic;
+    font-style: Medium;
+    margin-top: 10px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #34ACE0;
+    border-radius: 20px;
+    padding: 53px;
+    width: 88%;
+    margin: 26px auto;
+}
+
+.card-main {
+    color: aliceblue;
+    margin: 10px;
+    border-left: 20px whitesmoke;
+    text-align: right;
+    padding: 13px;
+}
+
+#card-border {
+    border-left: 2px solid #FFFFFF;
+}
+
+.card-main img {
+    width: 25px;
+    margin-bottom: -10px;
+}
+
+.img-width {
+    width: 40px !important
+}
+
+.card-main h2 {
+    font-size: 28px;
+    color: #FFFFFF;
+    direction: rtl;
+    margin: 15px -5px 3px 8px;
+}
+
+.card-main p {
+    font-family: 'Noto Kufi Arabic';
+    font-size: 12px;
+    line-height: 168.7%;
+    text-align: justify;
+    direction: rtl;
+    color: #FFFFFF;
+    padding: 4px;
+    padding-left: 32px;
+}
+
+.card-main .note {
+    padding-left: 3px !important;
+}
+
+.text-p  {
+    text-align: center;
+    color: #4B4B4B;
+    Font-size: 18px;
+    Line-height: 167%;
+    /* width: 57%; */
+    margin: 8px auto 60px;
+}
+
+/*---------------------------------------------------------------
+-------- -----------------section services ----------
+--------------------------- ------------------------------------*/
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 109px;
+    overflow-wrap: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#content-text {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    color: #4B4B4B;
+    margin-left: 22px;
+}
+
+#content-text h1{
+    font-family: 'Noto Kufi Arabic';
+    font-size: 35px;
+    line-height: 100%;
+    padding: 10px;
+    font-weight: 600;
+    color: #4B4B4B;
+}
+#content-text h2 {
+    font-family: 'Noto Kufi Arabic';
+    font-size: 35px;
+    padding-right: 11px !important ;
+    line-height: 100%;
+    padding: 15px 0;
+    font-weight: 600;
+    color: #4B4B4B;
+}
+
+#content-text span {
+    color: #34ACE0;
+    font-family: 'Noto Kufi Arabic';
+}
+
+.radius {
+    background-color: #34ACE0;
+    color: white !important;
+    font-weight: 600;
+    border-radius: 50%;
+    padding: 19px 8px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#content-text p {
+    font-family: 'Noto Kufi Arabic';
+    text-align: right;
+    direction: rtl;
+    font-size: 16px;
+    margin-top: 25px;
+    margin: 15px 0;
+    width: 95%;
+    position: relative;
+    left: 40px;
+}
+
+.services-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 0;
+    position: relative;
+    width: 100%;
+    right: 22px !important;
+
+}
+
+.services-box .services-card {
+    margin: -16px 0px;
+    padding: 0px 31px;
+    width: 244px;
+    height: 87px;
+    text-align: center;
+}
+.services-box .services-card h3 {
+    font-family: 'Noto Kufi Arabic';
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -8px;
+    width: 140px;
+}
+
+#border {
+    border-left: 1px solid #A7A7A7;
+}
+
+.services-card span {
+    font-size: 50px;
+    font-weight: bold;
+    color: #34ACE0;
+    font-weight: 700;
+}
+
+#content-imge {
+    position: relative;
+}
+
+#content-imge img[src="assets/images/Rectangle 122.png"] {
+    position: absolute !important;
+    width: 350px !important;
+    height: 400px;
+}
+
+.first-img {
+    position: relative;
+    right: -356px;
+    top: 190px;
+    width: 464px;
+    height: 477px;
+}
+
+
+
+
+.link a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 25px;
+    line-height: 100%;
+    text-align: center;
+    font-family: 'Noto Kufi Arabic';
+    font-weight: bold;
+}
+
+.link:hover {
+    background-color: #34ACE0;
+}
+
+.link i {
+    font-weight: 900;
+    color: #FFFFFF;
+    width: 1px;
+}
+
+.btn_sbmit {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #FFB142;
+    width: 357px;
+    height: 62px;
+    margin: 50px 500px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.btn_sbmit:hover{
+    text-decoration: none;
+    background-color: #34ACE0;
+    color: white;
+}
+/*---------------------------------------------------------------
+-------- -----------------media query ----------
+--------------------------- ------------------------------------*/
+
+@media only screen and (min-width: 280) and (max-width: 380) {
+
+    #continer-text {
+        text-align: right;
+        margin-left: 2rem;
+        width: 77%;
+    }
+
+    .success .text img {
+        Height: 85px;
+        width: 80%;
+        margin: -27px auto;
+    }
+
+    .success .text h2 {
+        margin-top: -20px;
+        font-size: 28px;
+        margin: -81px auto;
+    }
+
+    .success .text h3 {
+        top: 19px;
+    }
+
+
+}
+
+@media (max-width: 576px) {
+
+    body {
+        /* border: 1px solid red; */
+    }
+
+    .section {
+        display: block;
+    }
+
+    /************************************* marketing **********************/
+    .marketing {
+        display: block;
+        justify-content: center;
+        height: 666Px;
+        margin: 11rem 0px 5rem;
+    }
+
+    #continer-imgs img {
+        position: initial;
+    }
+
+    .vector-img {
+        display: none;
+    }
+
+    .gif-img {
+        height: 340px;
+        width: 100%;
+        margin-top: 19rem;
+        margin: 1rem 0rem 1rem;
+    }
+
+    #continer-text {
+        text-align: right;
+        margin-left: 3rem;
+        width: 77%;
+    }
+
+    #continer-text h3 {
+        Font-size: 15px;
+    }
+
+    #continer-text h1 {
+        font-size: 20px;
+        margin: 15px 0px;
+    }
+
+    #continer-text p {
+        font-size: 12px;
+    }
+
+    /*************************************** success **********************/
+    .success {
+        margin: 4rem 0rem;
+    }
+
+    .success .text {
+        box-sizing: border-box;
+        width: 50%;
+        height: 55px;
+        border: 1px solid #34ACE0;
+        border-radius: 8px 0;
+        margin: -41px auto;
+    }
+
+    .success .text img {
+        Height: 85px;
+        width: 75%;
+        margin: -27px auto;
+        display: block;
+        position: initial;
+    }
+
+    .success .text h2 {
+        color: #34ACE0;
+        margin-top: -20px;
+        width: 106px;
+        font-size: 25px;
+        margin: -81px auto;
+        display: flex;
+        padding: 10px;
+        position: initial;
+    }
+
+    .text h2 #number {
+        position: initial;
+        padding-left: 7px;
+        font-weight: 600;
+    }
+
+    .success .text h3 {
+        text-align: center;
+        color: #4B4B4B;
+        top: 19px;
+        font-size: 13px;
+        font-weight: 600;
+        Font-family: Noto Kufi Arabic;
+        Font-style: Medium;
+        margin-top: 82px;
+        position: initial;
+    }
+
+    .box {
+        display: block;
+        justify-content: center;
+        width: auto;
+        padding: 44px;
+        margin: 0px 3rem 25px;
+    }
+
+    .card-main {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+
+    #card-border {
+        border-top: 2px solid #FFFFFF;
+        border-left: none;
+    }
+
+    .card-main img {
+        margin-bottom: 10px;
+        width: 22px;
+    }
+
+    .img-width {
+        width: 34px !important;
+    }
+
+    .card-main h2 {
+        font-size: 16px;
+        padding: 0px;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+
+    .card-main p {
+        font-size: 12px;
+        padding: 0px;
+    }
+
+    .success .text-p p {
+        width: auto;
+        font-size: 12px;
+        margin: 1rem 5rem;
+    }
+
+    /***************************************services**********************/
+
+    .container{
+        padding: 0 0px !important;
+    }
+    .services{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+#content-text h1{
+    /* padding-right: 50px; */
+    font-family: 'Noto Kufi Arabic';
+    font-size: 30px;
+    font-weight: 600;
+    color: #4B4B4B;
+    text-align: right;
+}
+#content-text h2 {
+    /* padding-right: 50px; */
+    font-family: 'Noto Kufi Arabic';
+    font-size: 30px;
+    font-weight: 600;
+    color: #4B4B4B;
+    /* margin-bottom: 40px; */
+    text-align: right;
+}
+#content-text h1 span{
+    color: #4B4B4B;
+}
+.radius {
+    background-color: transparent;
+    color: #34ACE0 !important;
+    font-weight: 600;
+    font-size: 30px;
+    display: block;
+}
+
+#content-text p {
+    font-family: 'Noto Kufi Arabic';
+    text-align: right;
+    direction: rtl;
+    font-size: 16px;
+    margin-top: 25px;
+    /* margin: 15px 0; */
+    /* width: 95%; */
+    position: relative;
+    left: 0px;
+}
+    #content-imge img[src="assets/images/Rectangle 122.png"] {
+        position: absolute;
+        left: 100px;
+        height: 500px !important;
+        top: 80px !important;
+        width: 150px ;
+        height: 350px !important;
+
+    }
+    .services-box{
+        position: relative;
+        top: 30px;
+        right: 70px !important;
+    }
+    .num{
+        font-size: 25px !important;
+    }
+    .link {
+        margin-top: -49px;
+        width: 273px;
+        height: 50px;
+        margin-bottom: 1rem;
+    }
+    .services-card{
+        padding: 0 !important;
+        padding: 0 10px !important;
+        height: fit-content !important;
+    }
+    .services-card h3{
+        width: 90px;
+        font-size: 12px !important;
+    }
+    .btn_sbmit{
+        margin: 0 158px;
+        width: 227px;
+    }
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    body {
+        /* background-color: blue; */
+        /* border: 100px solid yellow; */
+    }
+
+
+    .sec5 .marge span{
+        font-size: 30px !important;
+    }
+
+    /****************************************marketing**********************/
+    #continer-text {
+        margin-right: 3rem;
+        padding-left: 52px;
+    }
+    .marketing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column !important;
+    margin-top: 170px !important;
+}
+    #continer-text h3 {
+        font-size: 17px;
+    }
+
+    #continer-text h1 {
+        font-size: 25px;
+        margin: 15px 0px
+    }
+
+    #continer-text p {
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .vector-img {
+        display: none;
+    }
+
+    .gif-img {
+        height: 379px;
+        width: 400px;
+        position: relative;
+        /* right: 85px; */
+    }
+
+    /*********************************success**********************/
+    .success {
+        margin-top: 15rem ;
+        flex-wrap: wrap;
+        margin: 0;
+        margin-top: 28vw;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-main {
+        padding: 0px;
+    }
+
+    .card-main h2 {
+        font-size: 17px;
+    }
+    #card-border{
+        border: none;
+        border-top: 1px solid white;
+        padding: 5px 0 ;
+    }
+    .card-main p {
+        font-size: 15px;
+    }
+
+    /***********************************services*********/
+
+    .container{
+        padding: 0 0px !important;
+    }
+    .services{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+#content-text h1{
+    /* padding-right: 50px; */
+    font-family: 'Noto Kufi Arabic';
+    font-size: 30px;
+    font-weight: 600;
+    color: #4B4B4B;
+    text-align: right;
+}
+#content-text h2 {
+    /* padding-right: 50px; */
+    font-family: 'Noto Kufi Arabic';
+    font-size: 30px;
+    font-weight: 600;
+    color: #4B4B4B;
+    /* margin-bottom: 40px; */
+    text-align: right;
+}
+#content-text h1 span{
+    color: #4B4B4B;
+}
+.radius {
+    background-color: transparent;
+    color: #34ACE0 !important;
+    font-weight: 600;
+    font-size: 30px;
+    display: block;
+}
+
+#content-text p {
+    font-family: 'Noto Kufi Arabic';
+    text-align: right;
+    direction: rtl;
+    font-size: 16px;
+    margin-top: 25px;
+    /* margin: 15px 0; */
+    /* width: 95%; */
+    position: relative;
+    left: 0px;
+}
+    #content-imge img[src="assets/images/Rectangle 122.png"] {
+        position: absolute;
+        left: 70px !important;
+        height: 500px !important;
+        top: 80px !important;
+        width: 250px;
+        height: 350px !important;
+
+    }
+    .services-box{
+        position: relative;
+        top: 30px;
+        right: 90px;
+    }
+    .link {
+        margin-top: -49px;
+        width: 273px;
+        height: 50px;
+        margin-bottom: 1rem;
+    }
+    .services-card{
+        padding: 0 !important;
+        padding: 0 20px !important;
+    }
+    .services-card h3{
+        width: 110px;
+        font-size: 15px !important;
+    }
+    .btn_sbmit{
+        margin: 0 158px ;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+
+    body {
+        /* background-color: blue; */
+        /* border: 100px solid blue; */
+    }
+
+    /****************************************marketing**********************/
+    #continer-text {
+        margin-right: 3rem;
+        padding-left: 52px;
+    }
+    .marketing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column !important;
+    margin-top: 170px !important;
+}
+    #continer-text h3 {
+        font-size: 17px;
+        width: 372px;
+
+    }
+
+    #continer-text h1 {
+        font-size: 25px;
+        margin: 15px 0px;
+        width: 372px;
+
+    }
+
+    #continer-text p {
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
+        width: 372px;
+    }
+
+    .vector-img {
+        display: none;
+    }
+
+    .gif-img {
+        height: 379px;
+        width: 500px;
+        position: relative;
+        right: 61px;
+    }
+
+    /*********************************success**********************/
+    .success {
+        margin-top: 15rem ;
+        flex-wrap: wrap;
+        margin: 0;
+        margin-top: 28vw;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-main {
+        padding: 0px;
+    }
+
+    .card-main h2 {
+        font-size: 17px;
+    }
+    #card-border{
+        border: none;
+        border-top: 1px solid white;
+        padding: 5px 0 ;
+    }
+    .card-main p {
+        font-size: 15px;
+    }
+
+    /***********************************services*********/
+
+    .container{
+        padding: 0 0px !important;
+    }
+    .services{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+#content-text h1{
+    font-family: 'Noto Kufi Arabic';
+    font-size: 30px;
+    font-weight: 600;
+    color: #4B4B4B;
+    text-align: right;
+    padding: 0 25px !important;
+    width: 570px;
+    position: relative;
+    bottom: 4px;
+    right: 0px;
+}
+#content-text h2 {
+    /* padding-right: 50px; */
+    font-family: 'Noto Kufi Arabic';
+    font-size: 30px;
+    font-weight: 600;
+    color: #4B4B4B;
+    padding: 0 25px !important;
+    /* margin-bottom: 40px; */
+    text-align: right;
+    width: 570px;
+    position: relative;
+    right: 0px;
+}
+#content-text h1 span{
+    color: #4B4B4B;
+}
+.radius {
+    background-color: transparent;
+    color: #34ACE0 !important;
+    font-weight: 600;
+    font-size: 30px;
+    display: block;
+}
+
+#content-text p {
+    font-family: 'Noto Kufi Arabic';
+    text-align: right;
+    direction: rtl;
+    font-size: 16px;
+    margin-top: 25px;
+    /* margin: 15px 0; */
+    width: 500px;
+    position: relative;
+    right: 0px;
+}
+    #content-imge img[src="assets/images/Rectangle 122.png"] {
+        position: absolute;
+        left: 170px;
+        height: 500px !important;
+        top: 80px !important;
+        width: 350px;
+        height: 350px !important;
+
+    }
+    .services-box{
+        position: relative;
+        top: 30px;
+        right: 80px !important;
+    }
+    .link {
+        margin-top: -49px;
+        width: 273px;
+        height: 50px;
+        margin-bottom: 1rem;
+    }
+    .services-card{
+        padding: 0 !important;
+        padding: 0 20px !important;
+    }
+    .services-card h3{
+        width: 140px;
+    }
+    .btn_sbmit{
+        margin: 0 auto;
+    }
+
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    body {
+        /* background-color: green; */
+        /* border: 10px solid green; */
+    }
+
+    /***************************************** marketing *********/
+    .marketing {
+        height: 470px;
+    }
+
+    #continer-text {
+        margin-right: 5rem;
+    }
+
+    #continer-text h3 {
+        Font-size: 18px;
+        width: 600px;
+    }
+
+    #continer-text h1 {
+        font-size: 35px;
+        width: 600px;
+    }
+
+    #continer-text p {
+        font-size: 18px;
+        width: 600px;
+
+    }
+
+    .vector-img {
+        display: none;
+    }
+
+    .gif-img {
+        position: relative;
+        height: 509px;
+        width: 639px;
+        top: -84px;
+        /* right: 52px; */
+        margin-top: 40vw;
+    }
+
+    .card h3{
+        width: 300px;
+    }
+    /**************************************** success *********/
+    .success{
+        margin-top: 50vw !important;
+    }
+    .card-main h2 {
+        font-size: 19px;
+    }
+
+    /*************************************** services *********/
+
+    .services{
+        display: flex;
+
+    }
+
+#content-text h1{
+    font-family: 'Noto Kufi Arabic';
+    font-size: 30px;
+    font-weight: 600;
+    color: #4B4B4B;
+    text-align: right;
+    width: 535px;
+
+}
+#content-text h2 {
+    font-family: 'Noto Kufi Arabic';
+    font-size: 30px;
+    font-weight: 600;
+    color: #4B4B4B;
+    margin: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 535px;
+    align-items: center;
+    text-align: right;
+}
+#content-text h1 span{
+    color: #4B4B4B;
+}
+.radius {
+    background-color: transparent;
+    color: #34ACE0 !important;
+    font-weight: 600;
+    font-size: 30px;
+    display: block;
+}
+
+#content-text p {
+    font-family: 'Noto Kufi Arabic';
+    text-align: right;
+    direction: rtl;
+    font-size: 16px;
+    margin-top: 25px;
+    /* margin: 15px 0; */
+    width: 506px;
+    position: relative;
+    left: 0px;
+}
+    #content-imge img[src="assets/images/Rectangle 122.png"] {
+        position: absolute;
+        left: 35px;
+        height: 500px !important;
+        top: -230px;
+        width: 400px !important;
+        height: 400px;
+    }
+    .services-box{
+        position: relative;
+        right: 140px !important;
+        top: 30px;
+    }
+    .link {
+        margin-top: -49px;
+        width: 273px;
+        height: 50px;
+        margin-bottom: 1rem;
+    }
+    .services-card{
+        padding: 0 !important;
+        padding: 0 20px !important;
+    }
+    .services-card h3{
+        width: 140px;
+    }
+    .btn_sbmit{
+        margin: 0 auto;
+    }
+
+}

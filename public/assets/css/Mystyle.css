@@ -1,0 +1,275 @@
+* {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+:root {
+    --base-Color: #34ACE0;
+    --button-color: #FFB142;
+    --text-color: #4B4B4B;
+}
+
+.Contact-Information {
+    height: 592px;
+    direction: rtl ;
+    background-color: var(--base-Color);
+    border-radius: 5px;
+    padding: 46px 39px;
+    color: white;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+}
+
+.Contact-Information h3 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 38px;
+    margin-bottom: 22px;
+}
+
+.Contact-Information p {
+    line-height: 23px;
+    font-size: 13px;
+    text-align: justify;
+    margin-bottom: 24px;
+}
+
+.information {
+    display: flex;
+
+    margin-bottom: 25px;
+}
+
+.information i {
+    font-size: 25px;
+}
+
+.information p {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 7px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 22px;
+}
+
+.message {
+    padding: 42px 0;
+    position: relative;
+}
+
+.message .ready {
+    line-height: 56px;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 15px;
+}
+.parent{
+    direction: rtl;
+
+}
+.name,
+.email,
+.text-area {
+    width: 400px;
+    height: 54px;
+    border: 1px solid #B7B7B7;
+    border-radius: 30px;
+    padding: 5px 25px;
+    margin-bottom: 25px;
+}
+
+.text-area {
+    height: 199px;
+    margin-bottom: 20px
+}
+
+.submit {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 231px;
+    height: 52px;
+    border-radius: 26px;
+    position: relative;
+    right: 275px;
+    background-color: var(--button-color);
+}
+.email{
+    width: 400px !important;
+    height: 54px;
+    border: 1px solid #B7B7B7 !important;
+    border-radius: 30px;
+    padding: 5px 25px;
+    margin-bottom: 25px;
+}
+
+.submit button {
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.submit i {
+    color: white;
+    font-size: 20px;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  
+    .ready{
+        font-size: 20px !important;
+        text-align: center;
+    }
+    .Contact-Information {
+        min-height: 632px;
+        direction: rtl ;
+        background-color: var(--base-Color);
+        border-radius: 5px;
+        padding: 46px 39px;
+        color: white;
+        box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+    }
+    .Contact-Information .information p{
+        width: 80px !important;
+        font-size: 12px;
+        color: white;
+    }
+    .parent {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .name,
+.text-area {
+    width: 250px;
+    height: 54px;
+    border: 1px solid #B7B7B7;
+    border-radius: 30px;
+    padding: 5px 25px;
+    margin-bottom: 25px;
+}
+.email{
+    width: 250px !important;
+    height: 54px;
+    border: 1px solid #B7B7B7 !important;
+    border-radius: 30px;
+    padding: 5px 25px;
+    margin-bottom: 25px;
+}
+.submit {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 250px;
+    height: 52px;
+    border-radius: 26px;
+    position: relative;
+    right: 0 !important;
+    background-color: var(--button-color);
+    -webkit-border-radius: 26px;
+    -moz-border-radius: 26px;
+    -ms-border-radius: 26px;
+    -o-border-radius: 26px;
+}
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .parent {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .name,
+.text-area {
+    width: 300px;
+    height: 54px;
+    border: 1px solid #B7B7B7;
+    border-radius: 30px;
+    padding: 5px 25px;
+    margin-bottom: 25px;
+}
+.email{
+    width: 300px !important;
+    height: 54px;
+    border: 1px solid #B7B7B7 !important;
+    border-radius: 30px;
+    padding: 5px 25px;
+    margin-bottom: 25px;
+}
+.submit {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    height: 52px;
+    border-radius: 26px;
+    position: relative;
+    right: 0 !important;
+    background-color: var(--button-color);
+    -webkit-border-radius: 26px;
+    -moz-border-radius: 26px;
+    -ms-border-radius: 26px;
+    -o-border-radius: 26px;
+}
+.message .ready {
+    font-size: 25px;
+    font-weight: 700;
+    width: 400px !important;
+    color: var(--text-color);
+    margin-bottom: 15px;
+}
+.Contact-Information{
+    width: 300px !important;
+}
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .parent {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .name,
+.text-area {
+    width: 450px;
+    height: 54px;
+    border: 1px solid #B7B7B7;
+    border-radius: 30px;
+    padding: 5px 25px;
+    margin-bottom: 25px;
+}
+.email{
+    width: 450px !important;
+    height: 54px;
+    border: 1px solid #B7B7B7 !important;
+    border-radius: 30px;
+    padding: 5px 25px;
+    margin-bottom: 25px;
+}
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+
+}
+
